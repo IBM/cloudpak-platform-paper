@@ -1,0 +1,291 @@
+<!doctype html><html>
+<head>
+<meta name=generator content="Hugo 0.92.1">
+<title>IBM Cloud Paks</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no">
+<meta name=description content>
+<meta name=author content>
+<meta name=msapplication-TileColor content="#da532c">
+<meta name=theme-color content="#ffffff">
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=manifest href=/site.webmanifest>
+<link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5>
+<link rel=stylesheet href=/assets/css/main.min.css>
+<noscript><link rel=stylesheet href=/assets/css/noscript.min.css></noscript>
+</head>
+<body class=is-preload>
+<div id=wrapper class=divided>
+<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+<div class=content>
+<h1>IBM Cloud Paks</h1>
+<p class=major>Value Proposition and Technical Architecture
+</p>
+<p><blockquote>This paper describes the IBM Cloud Paks, illustrating how the underlying technical requirements and resulting architecture drive a compelling value proposition. It focuses on the value proposition of the overall platform itself rather than individual capabilities available within each Cloud Pak.</blockquote>
+</p>
+<ul class="actions stacked">
+<li><a href=#first class="button primary large wide smooth-scroll-middle">Read more...</a></li>
+</ul>
+</div>
+<div class=image>
+<img src=images/wordcloud.svg alt="Hugo Story">
+</div>
+</section>
+<section class="spotlight style1 medium onscroll-fade-in" id=first>
+<div class=content>
+<h2>Executive Summary</h2>
+<p>
+The overall value of the platform experience is productivity gains for customers who want to focus on rapid innovation and digital transformation in both backend development processes and functionality including:</br> </br>
+<strong>Pre-integration</strong></br>
+An integrated platform that reduces or eliminates the manual work required to stitch together multiple capabilities or integration work by systems integrators to build custom connections between capabilities. It includes a common set of well-integrated tools that reduce development time and costs by eliminating duplicative tools and processes, allowing teams to focus on business value add activities. The Cloud Pak platform includes patterns that are highly optimized for value, for example capabilities such as Watson Assistant and Business Automation that work together, eliminating the software integration tasks.</br></br>
+<strong>Portability</strong></br>
+A platform that enables customers to run workloads across different architectural configurations. For example, some workloads my require heavy on-premises architecture, but there also exists data gravity in AWS or Azure, and customers need to run an ETL job where the data resides. The platform allows you to build transformations once and deploy them anywhere, eliminating the cost of maintaining multiple teams skilled on different cloud architectures who are responsible for porting workloads from one environment to another.</br></br>
+<strong>Consistent security and operations</strong></br>
+A platform experience that includes a common and consistent operational model for operations, upgrades, and maintenance across clouds and on-premise environments. IBM’s internal certification process continuously scans for vulnerabilities and makes sure the latest version of OpenShift is supported. Because this compliance is delivered with the Cloud Pak platform experience and a common management experience, it drives economies of scale.</br></br>
+Businesses need operational and business agility as they seek to achieve continuous innovation with application integrity. Without a platform, you can only innovate in pockets with fragmented islands of progress. And until now, there has not been an architecture where you can properly integrate capabilities and deliver development agility while ensuring application integrity across the environments. Businesses that embrace the platform will surpass their competitors with productivity gains and agility.</br></br>
+We view the combination of the IBM Cloud Paks and the Red Hat OpenShift Container Platform as the Cloud Pak platform, which brings together the value of IBM capabilities on the number one leading Hybrid Cloud Container platform in the industry.</br></br>
+</p>
+</div>
+</section>
+<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id=second>
+<div class=content>
+<h2>Introduction</h2>
+<p>When we talk about a platform, it can be many things:<ul>
+<li>An environment that allows the building, deploying, and managing of applications and workloads in a consistent way.
+<li>A bundling of capabilities with integrated behavior.
+<li>A consistent developer, SRE, and business user experience.
+<li>A common set of services that simplify and accelerate development and integration, such as embedded data, automation, and artificial intelligence (AI) facilities.
+<li>A common model for automating delivery and deployment that accelerates developer innovation and scale.
+<li>Embedded behavior that significantly reduces operational costs in resiliency, scale, repeatability, governance, and high availability (H/A).
+<li>A foundation for capabilities that all:<ul>
+<li>Install the same.
+<li>Work the same.
+<li>Run anywhere (on-premises, in the cloud, and as-a-Service (aaS). </ul></ul>
+The IBM Cloud Paks exhibit these attributes by:<ul>
+<li>Extending the OpenShift Container Platform to provide containerized patterns for AI, Data, Integration, and Security.
+<li>Aligning on a common software stack.
+<li>Incorporating consistent behaviors at all levels of the stack.
+<li>Providing integrated common services across the environment with a focus on data, automation, and AI.
+<li>Driving portability across on-premises, cloud, and aaS delivery models.</ul>
+IBM Cloud Paks deploy into the <a href=https://www.redhat.com/en/technologies/cloud-computing/openshift/container-platform>OpenShift Container Platform (OCP)</a>. The OpenShift Container Platform provides a secure common platform to build, deploy, and manage a variety of containerized applications, and provides tools and capabilities to automate every aspect of the container lifecycle. The OpenShift Container Platform standardizes prescriptive patterns of integration, and provides enhanced capabilities and consistency across the development, deployment, and management experience.</br></br>
+IBM’s Cloud Paks consist of containerized capabilities extending the OpenShift Container Platform to deliver AI, Automation, Data, Observability, Security, and Integration capabilities in a consistent way. The platform includes many of the traditional capabilities that were previously found in individual offerings, but with better aligned and innovative horizontal and vertical integration, more appropriate to subject matter experts, and contains intuitive and cost-effective automation and AI. It is a portable platform that can be housed on any cloud as well as on-premises.</br>
+As the next step, from these industry challenges, we can derive a set of industry and technical drivers on which the Cloud Pak platform is based. </br></br></br></br>
+Photo by <a href="https://unsplash.com/@thomas2006?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">thomas heintz</a> on <a href="https://unsplash.com/s/photos/technical-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</p>
+</div>
+<div class=image>
+<img src=images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg alt>
+</div>
+</section>
+<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id=third>
+<div class=content>
+<h2>Industry drivers</h2>
+<p>Across every industry, when delivering applications and solutions for their business, enterprises face a common set of challenges such as the need for quick time-to-market, cost optimization, data analytics, technology adoption (such as AI), the journey to cloud, and hyperautomation. Customers are often dealing with multiple separate services, which are not consistent, integrated, or composable, and with no opportunities for collaboration across teams. In addition, all these considerations need to be backed by compliance with industry standards and regulations, data privacy, and security best practices. </br></br>
+Specific industries come with specific needs. Regulated industries, for example, Financial Services or Healthcare, need to comply with legal obligations for the security of often sensitive and personal data. In the Manufacturing, Communications, and Retail industries, enterprises require running applications outside of traditional data centers, “on the edge”.
+For example, a recent study across Healthcare payers identified these key challenges: <ul>
+<li><strong>Business paradigm shift:</strong> Move toward outcomes and value-based care vs. fee-for-service and reimbursement model. This shift fundamentally requires IT systems to be architected and implemented as an API-based platform.
+<li><strong>Design impedance mismatch:</strong> Lack of composable, configuration-driven architectures to address batch-based processing capabilities of claims.
+<li><strong>Legacy technology and flawed approach:</strong> Procedural language and constructs predate open systems and architecture. Doing translation from COBOL to Java without redesign is flawed because it does not reduce technical debt or realize business benefits.
+<li><strong>Weak business case:</strong> There are no hard business case or ROI justifications for the capital needed for modernizing such systems. Payers have grown inorganically via acquisition and that has increased the technical debt for payers with little to no rationalization of IT systems. Changes to these systems are expensive and lengthy. Traditional modernization approaches can cost in excess of $100M and would take three to five years.
+<li><strong>Culture:</strong> Lack of collaboration between IT and business has led to slow progress on transformation. Agile principles are widely accepted in IT, however, business teams are slow to catch up. A digitally native culture requires a customer-centric growth mindset and a delivery organization to execute on it. Executive sponsorship and change management are likely the biggest issues for organizations.
+<li><strong>Talent:</strong> Digital talent is in short supply and considered premium at technology companies. Attracting talent for payers is challenging. Skills like DevSecOps, Design Thinking, Agile Methodologies, Data Sciences, AI, and other cloud-native technologies are hard to find and retain. Partnering with the right services or consulting vendor is key to mitigating this risk. </ul>
+Another example of industry drivers, in the Finance sector, there are a variety of specific use cases that need to be addressed. Recently, a bank performed an analysis of their processes which revealed:<ul>
+<li>60,000 annual account closure requests per year.
+<li>Process non-compliance.
+<li>Multiple step rework, process deviations, and bottlenecks.
+<li>Lack of insights into user interaction data.
+<li>Attempts to quantify automation benefits before implementation.</ul>
+As the next step, from these industry challenges, we can derive a set of technical drivers on which the Cloud Pak platform is based. </br></br></br></br>
+Photo by <a href="https://unsplash.com/@victor_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor</a> on <a href="https://unsplash.com/s/photos/industry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</p>
+</div>
+<div class=image>
+<img src=images/victor-2PJMDIgK9EA-unsplash.jpg alt>
+</div>
+</section>
+<section class="spotlight style1 medium onscroll-fade-in" id=technology>
+<div class=content>
+<h2>Technology drivers</h2>
+<p>
+Business drivers like those above influence the evolution of IT in general and IT Architecture in particular. Here we describe the related technical drivers, providing some of the reasons for the architectural decisions made.
+<h3> Journey to Cloud</h3>
+Cloud Computing is becoming the dominant force in IT. Enterprises are at various stages with respect to maturity and breadth of embracing this model, but virtually all of them aspire to follow cloud computing principles across their IT organizations and applications. Popular vendor services have illustrated the feasibility, agility, and scalability of the cloud model. This implies that any modern platform must be architected for Cloud (with cloud-native principles and implementations) to assist in this journey.</br></br>
+<h3> Intelligent solutions</h3>
+Another equally important influence on IT has been the accelerated pace and availability of AI technologies. Enterprises want everything they do, be it technical or business, to be done more intelligently (and with greater automation); they apply cognitive abilities at an ever-increasing rate.</br></br>
+<h3> Modern development and operational processes</h3>
+Evidence has shown that IT operations and cloud SRE teams struggle to maintain configuration and security controls as applications become more distributed and agile, and infrastructure becomes more ephemeral and dynamic. In addition, developers often find they are spending more of their time dealing with infrastructure and integration issues than on software coding and innovation.[1] Along with the introduction of Cloud and AI, the methodologies and principles of how applications are developed and maintained have also evolved to address these operations and SRE challenges. Specifically, companies apply DevOps and, more recently, DevSecOps and GitOps practices. All of them aim to closely link the development process with related operational procedures and automate them for repeatability and consistency. The platforms that the applications run on need to enable and support these practices in a first-class manner.</br></br>
+<h3> Multiple application architectures</h3>
+In the early days of Cloud computing, companies started to develop cloud-centric (or cloud-native) application architectures, introducing things like microservices and 12-factor apps. At the same time, existing applications based on legacy architectures cannot be ignored, especially given the high cost of maintenance they incur. Many enterprises have thus established approaches that take both existing and new applications into consideration, including ways to modernize and enhance existing applications. It’s critical that the platform hosting these applications support all stages of modernization, from lift-and-shift all the way to full refactoring.</br></br>
+<h3> Multicloud architectures</h3>
+Besides serving a multitude of application architectures, the platform also must embrace a multicloud deployment and integration model. That is, workloads run in the place that best suits them, based on criteria such as cost, efficiency, or compliance. This not only includes running applications on-premises and off-premises, but also supports different hardware architectures like IBM Z, Power, and x86. It also means applications running in appliances, on “the edge” (i.e. non-traditional locations outside of a data center), and across multiple different hyperscalers. In other words, the platform must “run anywhere”.</br></br>
+<h3> Platform Characteristics </h3>
+A robust platform must be reliable, observable, and secure. Reliability and resiliency are paramount in production environments that require near zero downtime. To achieve that, IT operations teams require cross cloud observability beyond logging and monitoring, with AI predictive and automatic responses to changes in the environment. And the platform must include security, and, specifically, it must use consistent security policies to govern the access rights of each component.
+</p>
+</div>
+<div class=image>
+<img src=images/technology.png alt>
+</div>
+</section>
+<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id=second>
+<div class=content>
+<h2>Platform Architecture</h2>
+<p>We see our customers increasingly focused on buying and establishing platforms instead of individual products.
+<h3> Architectural Principles </h3>
+To address the industry and technology drivers described above, we establish the following architectural principles that form the basis for the platform: </br></br>
+<img src=images/arch-principals.png alt="Architectural principals"></br></br>
+<h4> Ease of adoption </h4><ul>
+<li>Offer multiple entry points that facilitate ease of adoption and out-of-the-box value, regardless of the customer starting point.
+<li>Existing customers with applications and pieces of middleware can modernize their solutions by leveraging the resources and benefits of the platform including portability, deployment automation, and multizone configurations.
+<li>New customers interested in hyperautomating their IT can begin by starting small and growing, paying only for the pieces that they use.
+<li>A Managed service (aaS) option is available to let IBM manage deployments or for trial evaluations or getting started.</ul>
+<h4> Platform consistency</h4><ul>
+<li>Provide common lifecycle management services for all capabilities.
+<li>Provide consistent administration, common tooling, common services, and consistent user experiences and APIs.
+<li>Provide common general-purpose capabilities for security, data, messaging, etc. that are shared and reused.
+<li>Include a common AI engine.
+<li>Use a common integrated core user experience framework, a single UI for shared technologies.
+<li>Support multiple personas including data scientists, developers, and SREs.
+<li>Include full stack observability, wired out-of-the-box.</ul>
+<h4> Enterprise-grade</h4>
+Offer an enterprise-grade platform that can run containers anywhere including leveraging cloud-native capabilities. It needs to support running applications in production, with respect to:</br></br>
+<img src=images/ent-grade2.png alt="Enterprise grade characteristics"></br></br>
+<h5><strong>Operational excellence</strong></h5><ul>
+<li> <em>Automated GitOps</em></br>
+Deployment and configuration artifacts that are stored as code and use automation to instantiate the resulting application or middleware when commits are made in the repository. The result is a governed, repeatable process that can be used to stand up a number of distributed instances consistently, and/or drive promotion from development to test and production.
+<li> <em>Integrated observability</em></br>
+Monitoring, logging, alerts, license management, and serviceability capabilities are embedded in the platform, in support of all applications or services hosted. Containerization inherently results in more exposed independent services than with a traditional monolithic application, but monitoring, logging and serviceability tools consolidate the information across the underlying containers (pods) to help bring together a holistic picture of what is happening. Performance problems between internal services are easier to detect because they are not buried in monolithic code, and thus can be tuned (see "Scale" below) without redeployment of the application or capability.</ul>
+<h5><strong>Security</strong></h5> <ul>
+<li> <em>Workload segregation</em></br>
+OpenShift clusters can be shared across organizations or environments (e.g. development, test, production) through role-based access control (RBAC) permissions and network policies. Leveraging the platform in this way extends its value across the organization.
+<li> <em>Automated security vulnerability protection</em></br>
+Operating systems and embedded services are constantly exposed to security vulnerabilities, often reported as Common Vulnerabilities and Exposures (CVEs). Red Hat and IBM monitor, fix, and deliver updates to their OpenShift and application software, as well as the Universal Base Image (UBI) that should form the basis for containerized applications. By keeping their clusters and containers updated, customers can reduce expensive scanning and analysis of their security exposures using the OpenShift platform.
+<li><em>Air gap/disconnected environment support</em></br>
+Customers with isolated execution environments can use IBM and Red Hat air gapped tools to retrieve and transfer needed product images from the internet to internal secured registries for scanning and isolated use without internet connections.</ul>
+<h5><strong>Reliability</strong></h5><ul>
+<li> <em>Inherent resiliency</em></br>
+Applications or capabilities deployed in the platform are automatically restarted and/or moved when underlying infrastructure fails. This helps to automatically ensure availability, even if or when certain application errors are encountered (e.g. program logic failures or memory leaks).
+<li> <em>High availability (HA): stretch and multizone clusters</em></br>
+The platform topology is not restricted to a single data center or availability zone. An OpenShift cluster can span across availability zones and automatically distribute workload so that capabilities are always available even when a zone (often a data center) becomes unavailable. If multiple instances of an application or service need to be deployed across an enterprise, a stretch cluster may be a good solution to leverage the distributed and scalable nature of the platform while also taking advantage of automated HA. All foundation services in the platform leverage this capability.
+<li> <em>Backup/DR capabilities</em></br>
+While multi-zone deployments provide the best recovery in terms of application availability, platform services deliver protection from unintended data corruption, archival for regulatory purposes, or application migration across clusters or clouds. Emerging standards in snapshot and operator technology strive to bring data protection in single zone clusters closer to the recovery point and time objectives experienced in HA environments.</ul>
+<h5><strong>Performance and Scale</strong></h5><ul>
+<li> <em>Scaling</em></br>
+OpenShift is elastically scalable. Compute nodes can be added non-disruptively to increase capacity or removed if not needed with minimal application availability impact. In addition, applications, capabilities, or their underlying bottlenecked containers or pods can be automatically scaled up or down in response to application performance or resource needs, based on policy. This is something that is much more difficult to do with traditional, monolithic applications yet is included in the horizontal and vertical pod auto-scalers in OpenShift.
+<li> <em>Serverless computing</em></br>
+At the extreme end of scaling, stateless functions are dynamically deployed and scaled on demand. The approach optimizes resources by running stateless applications or service components only when requested by clients or other applications.
+<li><em>Data/Construct Sharing</em></br>
+Foundational Platform services provide a basis for sharing constructs and data across applications to deliver a unified and optimized user experience. Concepts like “Projects” can be shared across applications from building out machine learning (ML) models and jobs to creating integrations with cloud services.</ul>
+<h5><strong>Cost optimization</strong></h5><ul>
+<li><em>Shared clusters</em></br>
+Large, shared clusters allow for multiple organizations, environments, or availability zones in a single cluster (see “Workload Segregation” above).
+<li><em>Metering</em></br>
+Foundational services can track the usage of specific products and assist in determining compliance with software licensing terms.</ul>
+<h3>Core functional capabilities of the platform</h3>
+Ultimately, the platform is just a means to an end, that end being the ability to run applications that help run businesses in the best way. To do so, the platform provides the following set of core capabilities that are available across on-premises, hybrid cloud, and multicloud environments to enable development, deployment, and management of industry solutions.</br></br>
+<img src=images/auto-pred-sec-mod.png alt="Core functionalities"></br></br>
+The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>
+<h3> Benefits </h3>
+While the detailed capabilities of the individual Cloud Paks are outside of the scope of this paper, we can still derive the following tangible benefits of the overall platform:</br></br>
+<strong>Integration:</strong> Horizontal, seamless integration of capabilities that no longer need to be manually integrated. This integration results in faster time to market, when reacting to quickly changing market demands.</br></br>
+<strong>Consistency:</strong> A common and consistent operational model (facilitated via DevSecOps and GitOps) that results in lower maintenance costs and better availability, scalability, and security.</br></br>
+<strong>Stability:</strong> Internal services are shared which allows for a more efficient use of cluster resources with fewer moving parts that leads to better overall stability of the environment. These services are open, hybrid, and extensible via rich ecosystem, fitting the enterprise’s multicloud reality.</br></br>
+</p>
+</div>
+</section>
+<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id=cpp>
+<div class=content>
+<h2>Cloud Pak platform</h2>
+<p>Finally, let’s examine how we achieve everything described thus far by first understanding the Kubernetes and OpenShift architecture and then diving into the Cloud Pak platform architecture.
+<h3> Kubernetes and OpenShift architecture<h3>
+<h4> Containers</h4>
+At IBM, we chose containers as the runtime model for all of our software. Containers are a great fit for microservices because they are extremely lightweight. Because the containers are based on pre-built images, they can be scanned for vulnerabilities, pulled on-demand, and are pre-tested.</br></br>
+<h4> Kubernetes </h4>
+Containers are portable across environments. However, containers by themselves are not enterprise-ready. We still need a platform framework that allows running containers at enterprise-grade. We chose Kubernetes as that framework because it provides container orchestration for redundancy, high availability, and automatic scalability. It has a built-in fully declarative resource model that supports GitOps and DevSecOps, easily enabling production grade deployments.</br></br>
+<h4> OpenShift architecture </h4>
+We chose the mature Red Hat OpenShift Container Platform for the Kubernetes container orchestration, which supports many of the requirements and characteristics mentioned above out-of-the-box. As the industry-leading container platform that is 100% open source, it runs anywhere, with a rich ecosystem, and provides consistency across different clouds. OpenShift also provides a model to control security at the platform level regardless of which cloud it resides. Observability is achieved through the OpenShift control layer through pod logs, for example.</br></br>
+<h3> Cloud Pak platform architecture<h3>
+<h4> Solution Deployment</h4>
+The platform architecture leverages operators as the design pattern for all lifecycle management. For enterprise-grade deployments, integrated GitOps and DevSecOps pipelines can be used to provide automated desired target state management across development, staging, and production environments. The included OpenShift GitOps operator together with Argo CD pipelines enable automated deployment and update declarative configuration artifacts stored in software management repositories like GitHub. Modular deployment enables customers to add value in a stepwise fashion, as they bring multiple capabilities together for their industry use case. Because the platform includes built-in automatic dependency management along with upgrade and version management, it eases the burden on the operations and SRE teams.</br></br>
+<h4> Environments</h4>
+By supporting large, shared clusters, as well as dedicated clusters for workload isolation, the platform offers broad environment support. High availability is achieved through deployment across multiple availability zones and by using appropriate storage replication mechanisms. Capabilities can be deployed across on-premises, hybrid cloud, multicloud, or aaS, or in any combination thereof, for maximum flexibility according to business or regulatory requirements.</br></br>
+<h4> Consistency</h4>
+A key component of the platform is consistency across clouds and capabilities. Therefore, an extensible UI framework is available with a common landing page and common UX capabilities. The UI dynamically grows functionality as more Cloud Paks, or capabilities are added. Common operational capabilities such as single sign-on, and license metering are automatically deployed as required. Common AI capabilities such as NLP, ML and Stream Analytics, are available and can be deployed as needed.</br></br>
+<h4> Certification</h4>
+Industry solutions rely on certification of all components that must also be security compliant. The platform follows standards for naming, deployment, security, and upgrades while also managing entitlements to the capabilities.</br></br>
+<h3> Key differentiators</h3>
+By running on multicloud, hybrid cloud, on-premises, and aaS, the platform meets enterprises where they run their business and where their workloads reside. Businesses can choose to run their customer-facing apps in the cloud and keep core processing behind a firewall on-premises, all while using Kubernetes and container technologies at enterprise-grade and with full stack support.
+AI, automation, security, and observability are horizontally integrated everywhere on the platform, making it easier to apply these concepts across the applications that run on the platform.</br></br></br></br>
+Photo by <a href="https://unsplash.com/@soumyadip_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soumyadip Sarkar</a> on <a href="https://unsplash.com/s/photos/platform?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</p>
+</div>
+<div class=image>
+<img src=images/soumyadip-sarkar-F-Kji0LAMQg-unsplash.jpg alt>
+</div>
+</section>
+<section class="spotlight style1 medium onscroll-fade-in" id=examplesoln>
+<div class=content>
+<h2>Example solution</h2>
+<p>
+<h2>Cognitive Claims</h2>
+The Cloud Pak platform supports a wide range of industries in support of mission-critical applications – therefor, having a platform that modernizes at different paces is key. The Cognitive Claims Process provides a tangible illustration of how the platform addresses these requirements with a goal of delivering a best-in-class claims processing solution for both policyholders and claims adjusters. Aspects of this solution are not only applicable to the entire insurance ecosystem, but other industries as well.</br></br>
+<h3> Overview </h3>
+The Cognitive claims intelligent automation solution uses integrated AI, ML, and Natural Language Processing (NLP) elements to trigger the automation of a complex set of tasks, processes, and workflows for addressing automotive-related claim losses.</br></br>
+By using technologies that can grow exponentially such as Process Mining, Robotic Process Automation (RPA), AI, and NLP, the solution helps organizations automate enterprise-wide workflows, accelerate the claims process, and deliver a better customer experience.[2] </br></br>
+The solution automates existing manual processes, tasks, and workflows by linking together a breadth of capabilities in an end-to-end flow.</br></br>
+<h3> Solution components </h3>
+The solution includes key platform capabilities for data, core system integration services, cloud-native applications, and automation workflows that support business processes and can all be administered from a single Platform Navigator UI: </br></br>
+<h4> Cloud-native services </h4>
+The Orchestrator microservice, Event Consumer, and Digital Worker run on OpenShift and perform business-critical logic and tasks essential for the intelligent workflow functions. These components cater to several application endpoints including customer mobile applications, core systems, business automation workflows, and external systems or APIs.</br></br>
+<h4> Integration services</h4>
+These services provide a two-way interface into core systems (Guidewire ClaimCenter in this use case) and enable endpoints for on-premise applications such as business processes to interact with the business functions in the digital worker.</br></br>
+<h4> Data and AI capabilities</h4>
+These capabilities provide insights via ML, Jupyter Notebooks, IBM Watson services, and Object storage for data repositories. The insights are made available by the digital workers and help the business automation flows make decisions in real-time based on prediction scores from the ML models.</br></br>
+<h4> Insurer core system</h4>
+Implemented in this solution is Guidewire ClaimCenter. The external integration is abstracted via IBM App Connect that performs data transformations necessary for consumption by Guidewire Core APIs. IBM Event Streams and IBM App Connect help with message delivery and transformations for two-way communication with Guidewire.</br></br>
+<h4> IBM Business Automation Workflow (BAW)</h4>
+Drives the claims flow. The domain knowledge is abstracted in the digital worker microservices to permit the business process to be reused in different client solutions.</br></br>
+The following diagram provides an architecture overview of the solution:
+<img src=images/banner.png alt="Intelligent Claims workflow architecture">
+Figure 1: Intelligent Claims workflow architecture</br></br>
+Notice how some capabilities (such as App Connect, Event Streams and API Connect, and AI services) run in IBM Cloud, while others (BAW Process Designer and Process Portal) run in an on-premises data center. The diagram also illustrates the incremental value add as each new service is added to the solution -- from Integration services, to AI services (Watson Assistant, ML, Visual recognition), to BAW services in the on-premises data center. </br></br>
+<h4> Benefits</h4>
+The benefits of this end-to-end automation include improved operational efficiency and consistency of claim reviews, reduced skill requirements by claims processing adjusters or Customer Service Representatives, automated fraud risk detection for reduction of processing costs, and a heightened customer engagement experience. More quantitatively:<ul>
+<li> 75% of the claims processing steps are fully automated.
+<li> More than 25% of the automated activities have cognitive capabilities.
+<li> 20% include augmented and manual interactions.</ul>
+</p>
+</div>
+</section>
+<section class="spotlight style1 medium onscroll-fade-in" id=future>
+<div class=content>
+<h2>Future direction</h2>
+<p>The Cloud Pak platform lays the foundation for application and operational integrity and continues to evolve and improve with regularly delivered advances in technology. We welcome your feedback and suggestions for features to address your business challenges. Submit your ideas using the <a href=https://ideas.ibm.com>Ideas Portal</a>. In the title of the idea submission, tag items as <code>#cpfield</code> and <code>#Global-Elite</code>.
+<h2> Conclusion </h2>
+Industries today are faced with a myriad of challenges that require an enterprise-grade platform that addresses their integration, hyperautomation, data management and AI, security, and observability needs. This paper has demonstrated the value of the platform by delivering productivity gains with the following key business outcomes.</br></br>
+<strong>Business Acceleration:</strong> A broad set of modular capabilities with streamlined horizontal and vertical integration provide a cost-effective model and quick time-to-market for solutions that include the latest AI and automation technologies.</br></br>
+<strong>Developer productivity:</strong> Productivity gains are achieved through pre-integrated capabilities, and a common set of shared services, administration UI, and deployment processes.</br></br>
+<strong>Infrastructure and operational cost efficiency:</strong> A common and consistent operational model for operations, upgrade, and maintenance combined with operational automation using GitOps and DevSecOps that relieves the burden of SRE teams.</br></br>
+<strong>Regulatory compliance and security:</strong> Built-in security and observability are provided by the Red Hat OpenShift Platform which also ensures production-ready deployments with elastic scalability and resiliency.</br></br>
+IT organizations across industries can get started today by leveraging the benefits of the Cloud Pak platform running on-premises, aaS, or in a hybrid or multicloud topology to solve their solution challenges.</br></br>
+<h2> References </h2>
+[1] IBM Cloud Paks Streamline Next-Generation Digital Business Development and Resiliency. https://www.ibm.com/downloads/cas/QOY8ORP3, May 2021.</br></br>
+[2] Injecting Simplicity, Speed, and Innovation in Core Insurance Processes: The Case for Claims Management 2.0. https://www.ibm.com/downloads/cas/WLKN1MDY, May 2021.</br></br>
+Photo by <a href="https://unsplash.com/@adrian_infernus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Infernus</a> on <a href="https://unsplash.com/s/photos/wallpaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</p>
+</div>
+<div class=image>
+<img src=images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg alt>
+</div>
+</section>
+<footer class="wrapper style1 align-center">
+<div class=inner>
+<ul class=icons>
+</ul>
+</div>
+</footer>
+</div>
+<script src=/assets/js/bundle.min.js></script>
+</body>
+</html>
