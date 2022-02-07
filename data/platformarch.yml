@@ -1,0 +1,101 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "second"
+title : "Platform Architecture"
+content: |
+  We see our customers increasingly focused on buying and establishing platforms instead of individual products.
+
+
+  <h3> Architectural Principles  </h3>
+
+  To address the industry and technology drivers described above, we establish the following architectural principles that form the basis for the platform: </br></br>
+
+  <img src="images/arch-principals.png" alt="Architectural principals" /></br></br>
+
+  <h4> Ease of adoption   </h4><ul>
+
+  <li>Offer multiple entry points that facilitate ease of adoption and out-of-the-box value, regardless of the customer starting point.
+  <li>Existing customers with applications and pieces of middleware can modernize their solutions by leveraging the resources and benefits of the platform including portability, deployment automation, and multizone configurations.
+  <li>New customers interested in hyperautomating their IT can begin by starting small and growing, paying only for the pieces that they use.
+  <li>A Managed service (aaS) option is available to let IBM manage deployments or for trial evaluations or getting started.</ul>
+
+  <h4> Platform consistency</h4><ul>
+
+  <li>Provide common lifecycle management services for all capabilities.
+  <li>Provide consistent administration, common tooling, common services, and consistent user experiences and APIs.
+  <li>Provide common general-purpose capabilities for security, data, messaging, etc. that are shared and reused.
+  <li>Include a common AI engine.
+  <li>Use a common integrated core user experience framework, a single UI for shared technologies.
+  <li>Support multiple personas including data scientists, developers, and SREs.
+  <li>Include full stack observability, wired out-of-the-box.</ul>
+
+  <h4> Enterprise-grade</h4>
+
+  Offer an enterprise-grade platform that can run containers anywhere including leveraging cloud-native capabilities. It needs to support running applications in production, with respect to:</br></br>
+
+  <img src="images/ent-grade2.png" alt="Enterprise grade characteristics" /></br></br>
+
+  <h5><strong>Operational excellence</strong></h5><ul>
+
+    <li>	<em>Automated GitOps</em></br>
+    Deployment and configuration artifacts that are stored as code and use automation to instantiate the resulting application or middleware when commits are made in the repository. The result is a governed, repeatable process that can be used to stand up a number of distributed instances consistently, and/or drive promotion from development to test and production.
+
+    <li>	<em>Integrated observability</em></br>
+    Monitoring, logging, alerts, license management, and serviceability capabilities are embedded in the platform, in support of all applications or services hosted. Containerization inherently results in more exposed independent services than with a traditional monolithic application, but monitoring, logging and serviceability tools consolidate the information across the underlying containers (pods) to help bring together a holistic picture of what is happening. Performance problems between internal services are easier to detect because they are not buried in monolithic code, and thus can be tuned (see "Scale" below) without redeployment of the application or capability.</ul>
+
+  <h5><strong>Security</strong></h5> <ul>
+
+    <li> <em>Workload segregation</em></br>
+    OpenShift clusters can be shared across organizations or environments (e.g. development, test, production) through role-based access control (RBAC) permissions and network policies. Leveraging the platform in this way extends its value across the organization.
+
+    <li> <em>Automated security vulnerability protection</em></br>
+    Operating systems and embedded services are constantly exposed to security vulnerabilities, often reported as Common Vulnerabilities and Exposures (CVEs). Red Hat and IBM monitor, fix, and deliver updates to their OpenShift and application software, as well as the Universal Base Image (UBI) that should form the basis for containerized applications. By keeping their clusters and containers updated, customers can reduce expensive scanning and analysis of their security exposures using the OpenShift platform.
+
+    <li><em>Air gap/disconnected environment support</em></br>
+    Customers with isolated execution environments can use IBM and Red Hat air gapped tools to retrieve and transfer needed product images from the internet to internal secured registries for scanning and isolated use without internet connections.</ul>
+
+  <h5><strong>Reliability</strong></h5><ul>
+
+    <li> <em>Inherent resiliency</em></br>
+    Applications or capabilities deployed in the platform are automatically restarted and/or moved when underlying infrastructure fails. This helps to automatically ensure availability, even if or when certain application errors are encountered (e.g. program logic failures or memory leaks).
+
+    <li> <em>High availability (HA): stretch and multizone clusters</em></br>
+    The platform topology is not restricted to a single data center or availability zone. An OpenShift cluster can span across availability zones and automatically distribute workload so that capabilities are always available even when a zone (often a data center) becomes unavailable. If multiple instances of an application or service need to be deployed across an enterprise, a stretch cluster may be a good solution to leverage the distributed and scalable nature of the platform while also taking advantage of automated HA.  All foundation services in the platform leverage this capability.
+
+    <li>	<em>Backup/DR capabilities</em></br>
+    While multi-zone deployments provide the best recovery in terms of application availability, platform services deliver protection from unintended data corruption, archival for regulatory purposes, or application migration across clusters or clouds.  Emerging standards in snapshot and operator technology strive to bring data protection in single zone clusters closer to the recovery point and time objectives experienced in HA environments.</ul>
+
+  <h5><strong>Performance and Scale</strong></h5><ul>
+
+    <li> <em>Scaling</em></br>
+    OpenShift is elastically scalable.  Compute nodes can be added non-disruptively to increase capacity or removed if not needed with minimal application availability impact. In addition, applications, capabilities, or their underlying bottlenecked containers or pods can be automatically scaled up or down in response to application performance or resource needs, based on policy. This is something that is much more difficult to do with traditional, monolithic applications yet is included in the horizontal and vertical pod auto-scalers in OpenShift.
+
+    <li> <em>Serverless computing</em></br>
+    At the extreme end of scaling, stateless functions are dynamically deployed and scaled on demand.  The approach optimizes resources by running stateless applications or service components only when requested by clients or other applications.
+
+    <li><em>Data/Construct Sharing</em></br>
+    Foundational Platform services provide a basis for sharing constructs and data across applications to deliver a unified and optimized user experience.  Concepts like “Projects” can be shared across applications from building out machine learning (ML) models and jobs to creating integrations with cloud services.</ul>
+
+
+  <h5><strong>Cost optimization</strong></h5><ul>
+
+    <li><em>Shared clusters</em></br>
+    Large, shared clusters allow for multiple organizations, environments, or availability zones in a single cluster (see “Workload Segregation” above).
+
+    <li><em>Metering</em></br>
+    Foundational services can track the usage of specific products and assist in determining compliance with software licensing terms.</ul>
+
+  <h3>Core functional capabilities of the platform</h3>
+
+  Ultimately, the platform is just a means to an end, that end being the ability to run applications that help run businesses in the best way. To do so, the platform provides the following set of core capabilities that are available across on-premises, hybrid cloud, and multicloud environments to enable development, deployment, and management of industry solutions.</br></br>
+
+  <img src="images/auto-pred-sec-mod.png" alt="Core functionalities" /></br></br>
+
+  The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>
+
+  <h3> Benefits </h3>
+  While the detailed capabilities of the individual Cloud Paks are outside of the scope of this paper, we can still derive the following tangible benefits of the overall platform:</br></br>
+
+  <strong>Integration:</strong> Horizontal, seamless integration of capabilities that no longer need to be manually integrated. This integration results in faster time to market, when reacting to quickly changing market demands.</br></br>
+  <strong>Consistency:</strong> A common and consistent operational model (facilitated via DevSecOps and GitOps) that results in lower maintenance costs and better availability, scalability, and security.</br></br>
+  <strong>Stability:</strong> Internal services are shared which allows for a more efficient use of cluster resources with fewer moving parts that leads to better overall stability of the environment. These services are open, hybrid, and extensible via rich ecosystem, fitting the enterprise’s multicloud reality.</br></br>

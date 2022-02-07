@@ -1,0 +1,36 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "technology"
+title : "Technology drivers"
+content: |
+
+  Business drivers like those above influence the evolution of IT in general and IT Architecture in particular. Here we describe the related technical drivers, providing some of the reasons for the architectural decisions made.
+
+  <h3> Journey to Cloud</h3>
+
+  Cloud Computing is becoming the dominant force in IT. Enterprises are at various stages with respect to maturity and breadth of embracing this model, but virtually all of them aspire to follow cloud computing principles across their IT organizations and applications. Popular vendor services have illustrated the feasibility, agility, and scalability of the cloud model. This implies that any modern platform must be architected for Cloud (with cloud-native principles and implementations) to assist in this journey.</br></br>
+
+  <h3> Intelligent solutions</h3>
+
+  Another equally important influence on IT has been the accelerated pace and availability of AI technologies. Enterprises want everything they do, be it technical or business, to be done more intelligently (and with greater automation); they apply cognitive abilities at an ever-increasing rate.</br></br>
+
+  <h3> Modern development and operational processes</h3>
+
+  Evidence has shown that IT operations and cloud SRE teams struggle to maintain configuration and security controls as applications become more distributed and agile, and infrastructure becomes more ephemeral and dynamic. In addition, developers often find they are spending more of their time dealing with infrastructure and integration issues than on software coding and innovation.[1] Along with the introduction of Cloud and AI, the methodologies and principles of how applications are developed and maintained have also evolved to address these operations and SRE challenges. Specifically, companies apply DevOps and, more recently, DevSecOps and GitOps practices. All of them aim to closely link the development process with related operational procedures and automate them for repeatability and consistency. The platforms that the applications run on need to enable and support these practices in a first-class manner.</br></br>
+
+  <h3> Multiple application architectures</h3>
+
+  In the early days of Cloud computing, companies started to develop cloud-centric (or cloud-native) application architectures, introducing things like microservices and 12-factor apps. At the same time, existing applications based on legacy architectures cannot be ignored, especially given the high cost of maintenance they incur. Many enterprises have thus established approaches that take both existing and new applications into consideration, including ways to modernize and enhance existing applications. It’s critical that the platform hosting these applications support all stages of modernization, from lift-and-shift all the way to full refactoring.</br></br>
+
+  <h3> Multicloud architectures</h3>
+
+  Besides serving a multitude of application architectures, the platform also must embrace a multicloud deployment and integration model. That is, workloads run in the place that best suits them, based on criteria such as cost, efficiency, or compliance. This not only includes running applications on-premises and off-premises, but also supports different hardware architectures like IBM Z, Power, and x86. It also means applications running in appliances, on “the edge” (i.e. non-traditional locations outside of a data center), and across multiple different hyperscalers. In other words, the platform must “run anywhere”.</br></br>
+
+  <h3> Platform Characteristics </h3>
+
+  A robust platform must be reliable, observable, and secure. Reliability and resiliency are paramount in production environments that require near zero downtime. To achieve that, IT operations teams require cross cloud observability beyond logging and monitoring, with AI predictive and automatic responses to changes in the environment. And the platform must include security, and, specifically, it must use consistent security policies to govern the access rights of each component.
+style: "style1 medium onscroll-fade-in"
+#button:
+#  label: "Learn More"
+#  link: "#second"
+image: "images/technology.png"

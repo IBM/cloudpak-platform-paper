@@ -1,0 +1,32 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "future"
+title : "Future direction"
+content: |
+  The Cloud Pak platform lays the foundation for application and operational integrity and continues to evolve and improve with regularly delivered advances in technology.  We welcome your feedback and suggestions for features to address your business challenges. Submit your ideas using the <a href="https://ideas.ibm.com">Ideas Portal</a>. In the title of the idea submission, tag items as <code>#cpfield</code> and <code>#Global-Elite</code>.
+
+  <h2> Conclusion </h2>
+  Industries today are faced with a myriad of challenges that require an enterprise-grade platform that addresses their integration, hyperautomation, data management and AI, security, and observability needs. This paper has demonstrated the value of the platform by delivering productivity gains with the following key business outcomes.</br></br>
+
+  <strong>Business Acceleration:</strong> A broad set of modular capabilities with streamlined horizontal and vertical integration provide a cost-effective model and quick time-to-market for solutions that include the latest AI and automation technologies.</br></br>
+
+  <strong>Developer productivity:</strong> Productivity gains are achieved through pre-integrated capabilities, and a common set of shared services, administration UI, and deployment processes.</br></br>
+
+  <strong>Infrastructure and operational cost efficiency:</strong> A common and consistent operational model for operations, upgrade, and maintenance combined with operational automation using GitOps and DevSecOps that relieves the burden of SRE teams.</br></br>
+
+  <strong>Regulatory compliance and security:</strong> Built-in security and observability are provided by the Red Hat OpenShift Platform which also ensures production-ready deployments with elastic scalability and resiliency.</br></br>
+
+  IT organizations across industries can get started today by leveraging the benefits of the Cloud Pak platform running on-premises, aaS, or in a hybrid or multicloud topology to solve their solution challenges.</br></br>
+
+  <h2> References </h2>
+  [1] IBM Cloud Paks Streamline Next-Generation Digital Business Development and Resiliency. https://www.ibm.com/downloads/cas/QOY8ORP3, May 2021.</br></br>
+  [2] Injecting Simplicity, Speed, and Innovation in Core Insurance Processes: The Case for Claims Management 2.0. https://www.ibm.com/downloads/cas/WLKN1MDY, May 2021.</br></br>
+
+
+  Photo by <a href="https://unsplash.com/@adrian_infernus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Infernus</a> on <a href="https://unsplash.com/s/photos/wallpaper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+style: "style1 medium onscroll-fade-in"
+#button:
+#  label: "Learn More"
+#  link: "#second"
+image: "images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg"

@@ -1,0 +1,44 @@
+###################<h4> Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "cpp"
+title : "Cloud Pak platform"
+content: |
+  Finally, let’s examine how we achieve everything described thus far by first understanding the Kubernetes and OpenShift architecture and then diving into the Cloud Pak platform architecture.
+
+  <h3> Kubernetes and OpenShift architecture<h3>
+
+  <h4> Containers</h4>
+  At IBM, we chose containers as the runtime model for all of our software. Containers are a great fit for microservices because they are extremely lightweight. Because the containers are based on pre-built images, they can be scanned for vulnerabilities, pulled on-demand, and are pre-tested.</br></br>
+
+  <h4> Kubernetes </h4>
+  Containers are portable across environments. However, containers by themselves are not enterprise-ready. We still need a platform framework that allows running containers at enterprise-grade. We chose Kubernetes as that framework because it provides container orchestration for redundancy, high availability, and automatic scalability. It has a built-in fully declarative resource model that supports GitOps and DevSecOps, easily enabling production grade deployments.</br></br>
+
+  <h4> OpenShift architecture </h4>
+  We chose the mature Red Hat OpenShift Container Platform for the Kubernetes container orchestration, which supports many of the requirements and characteristics mentioned above out-of-the-box. As the industry-leading container platform that is 100% open source, it runs anywhere, with a rich ecosystem, and provides consistency across different clouds. OpenShift also provides a model to control security at the platform level regardless of which cloud it resides. Observability is achieved through the OpenShift control layer through pod logs, for example.</br></br>
+
+  <h3> Cloud Pak platform architecture<h3>
+
+  <h4> Solution Deployment</h4>
+  The platform architecture leverages operators as the design pattern for all lifecycle management. For enterprise-grade deployments, integrated GitOps and DevSecOps pipelines can be used to provide automated desired target state management across development, staging, and production environments. The included OpenShift GitOps operator together with Argo CD pipelines enable automated deployment and update declarative configuration artifacts stored in software management repositories like GitHub. Modular deployment enables customers to add value in a stepwise fashion, as they bring multiple capabilities together for their industry use case. Because the platform includes built-in automatic dependency management along with upgrade and version management, it eases the burden on the operations and SRE teams.</br></br>
+
+  <h4> Environments</h4>
+  By supporting large, shared clusters, as well as dedicated clusters for workload isolation, the platform offers broad environment support. High availability is achieved through deployment across multiple availability zones and by using appropriate storage replication mechanisms. Capabilities can be deployed across on-premises, hybrid cloud, multicloud, or aaS, or in any combination thereof, for maximum flexibility according to business or regulatory requirements.</br></br>
+
+  <h4> Consistency</h4>
+  A key component of the platform is consistency across clouds and capabilities. Therefore, an extensible UI framework is available with a common landing page and common UX capabilities. The UI dynamically grows functionality as more Cloud Paks, or capabilities are added. Common operational capabilities such as single sign-on, and license metering are automatically deployed as required. Common AI capabilities such as NLP, ML and Stream Analytics, are available and can be deployed as needed.</br></br>
+
+  <h4> Certification</h4>
+  Industry solutions rely on certification of all components that must also be security compliant. The platform follows standards for naming, deployment, security, and upgrades while also managing entitlements to the capabilities.</br></br>
+
+  <h3> Key differentiators</h3>
+
+  By running on multicloud, hybrid cloud, on-premises, and aaS, the platform meets enterprises where they run their business and where their workloads reside. Businesses can choose to run their customer-facing apps in the cloud and keep core processing behind a firewall on-premises, all while using Kubernetes and container technologies at enterprise-grade and with full stack support.
+
+  AI, automation, security, and observability are horizontally integrated everywhere on the platform, making it easier to apply these concepts across the applications that run on the platform.</br></br></br></br>
+
+  Photo by <a href="https://unsplash.com/@soumyadip_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soumyadip Sarkar</a> on <a href="https://unsplash.com/s/photos/platform?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#button:
+#  label: "Example solution"
+#  link: "#examplesoln"
+image: "images/soumyadip-sarkar-F-Kji0LAMQg-unsplash.jpg"

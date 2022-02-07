@@ -1,0 +1,58 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left  onscroll-image-fade-in"
+id: "examplesoln"
+title : "Example solution"
+content: |
+
+  <h2>Cognitive Claims</h2>
+
+  The Cloud Pak platform supports a wide range of industries in support of mission-critical applications – therefor, having a platform that modernizes at different paces is key.  The Cognitive Claims Process provides a tangible illustration of how the platform addresses these requirements with a goal of delivering a best-in-class claims processing solution for both policyholders and claims adjusters. Aspects of this solution are not only applicable to the entire insurance ecosystem, but other industries as well.</br></br>
+
+  <h3> Overview </h3>
+
+  The Cognitive claims intelligent automation solution uses integrated AI, ML, and Natural Language Processing (NLP) elements to trigger the automation of a complex set of tasks, processes, and workflows for addressing automotive-related claim losses.</br></br>
+
+  By using technologies that can grow exponentially such as Process Mining, Robotic Process Automation (RPA), AI, and NLP, the solution helps organizations automate enterprise-wide workflows, accelerate the claims process, and deliver a better customer experience.[2] </br></br>
+
+  The solution automates existing manual processes, tasks, and workflows by linking together a breadth of capabilities in an end-to-end flow.</br></br>
+
+
+  <h3> Solution components </h3>
+
+  The solution includes key platform capabilities for data, core system integration services, cloud-native applications, and automation workflows that support business processes and can all be administered from a single Platform Navigator UI: </br></br>
+
+  <h4> Cloud-native services </h4>
+  The Orchestrator microservice, Event Consumer, and Digital Worker run on OpenShift and perform business-critical logic and tasks essential for the intelligent workflow functions. These components cater to several application endpoints including customer mobile applications, core systems, business automation workflows, and external systems or APIs.</br></br>
+
+  <h4> Integration services</h4>
+  These services provide a two-way interface into core systems (Guidewire ClaimCenter in this use case) and enable endpoints for on-premise applications such as business processes to interact with the business functions in the digital worker.</br></br>
+
+  <h4> Data and AI capabilities</h4>
+  These capabilities provide insights via ML, Jupyter Notebooks, IBM Watson services, and Object storage for data repositories. The insights are made available by the digital workers and help the business automation flows make decisions in real-time based on prediction scores from the ML models.</br></br>
+
+  <h4> Insurer core system</h4>
+  Implemented in this solution is Guidewire ClaimCenter. The external integration is abstracted via IBM App Connect that performs data transformations necessary for consumption by Guidewire Core APIs. IBM Event Streams and IBM App Connect help with message delivery and transformations for two-way communication with Guidewire.</br></br>
+
+  <h4> IBM Business Automation Workflow (BAW)</h4>
+  Drives the claims flow. The domain knowledge is abstracted in the digital worker microservices to permit the business process to be reused in different client solutions.</br></br>
+
+  The following diagram provides an architecture overview of the solution:
+
+
+  <img src="images/banner.png" alt="Intelligent Claims workflow architecture" />
+
+  Figure 1: Intelligent Claims workflow architecture</br></br>
+
+  Notice how some capabilities (such as App Connect, Event Streams and API Connect, and AI services) run in IBM Cloud, while others (BAW Process Designer and Process Portal) run in an on-premises data center. The diagram also illustrates the incremental value add as each new service is added to the solution -- from Integration services, to AI services (Watson Assistant, ML, Visual recognition), to BAW services in the on-premises data center. </br></br>
+
+  <h4> Benefits</h4>
+  The benefits of this end-to-end automation include improved operational efficiency and consistency of claim reviews, reduced skill requirements by claims processing adjusters or Customer Service Representatives, automated fraud risk detection for reduction of processing costs, and a heightened customer engagement experience. More quantitatively:<ul>
+
+  <li> 75% of the claims processing steps are fully automated.
+  <li> More than 25% of the automated activities have cognitive capabilities.
+  <li> 20% include augmented and manual interactions.</ul>
+style: "style1 medium onscroll-fade-in"
+#button:
+#  label: "Future direction"
+#  link: "#future"
+# image: "images/spotlight01.jpg"

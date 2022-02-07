@@ -1,0 +1,41 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "third"
+title : "Industry drivers"
+content: |
+  Across every industry, when delivering applications and solutions for their business, enterprises face a common set of challenges such as the need for quick time-to-market, cost optimization, data analytics, technology adoption (such as AI), the journey to cloud, and hyperautomation. Customers are often dealing with multiple separate services, which are not consistent, integrated, or composable, and with no opportunities for collaboration across teams. In addition, all these considerations need to be backed by compliance with industry standards and regulations, data privacy, and security best practices. </br></br>
+
+  Specific industries come with specific needs. Regulated industries, for example, Financial Services or Healthcare, need to comply with legal obligations for the security of often sensitive and personal data. In the Manufacturing, Communications, and Retail industries, enterprises require running applications outside of traditional data centers, “on the edge”.
+
+  For example, a recent study across Healthcare payers identified these key challenges:  <ul>
+
+  <li><strong>Business paradigm shift:</strong> Move toward outcomes and value-based care vs. fee-for-service and reimbursement model. This shift fundamentally requires IT systems to be architected and implemented as an API-based platform.
+
+  <li><strong>Design impedance mismatch:</strong> Lack of composable, configuration-driven architectures to address batch-based processing capabilities of claims.
+
+  <li><strong>Legacy technology and flawed approach:</strong> Procedural language and constructs predate open systems and architecture. Doing translation from COBOL to Java without redesign is flawed because it does not reduce technical debt or realize business benefits.
+
+  <li><strong>Weak business case:</strong> There are no hard business case or ROI justifications for the capital needed for modernizing such systems. Payers have grown inorganically via acquisition and that has increased the technical debt for payers with little to no rationalization of IT systems. Changes to these systems are expensive and lengthy. Traditional modernization approaches can cost in excess of $100M and would take three to five years.
+
+  <li><strong>Culture:</strong> Lack of collaboration between IT and business has led to slow progress on transformation. Agile principles are widely accepted in IT, however, business teams are slow to catch up. A digitally native culture requires a customer-centric growth mindset and a delivery organization to execute on it. Executive sponsorship and change management are likely the biggest issues for organizations.
+
+  <li><strong>Talent:</strong> Digital talent is in short supply and considered premium at technology companies. Attracting talent for payers is challenging. Skills like DevSecOps, Design Thinking, Agile Methodologies, Data Sciences, AI, and other cloud-native technologies are hard to find and retain. Partnering with the right services or consulting vendor is key to mitigating this risk.  </ul>
+
+  Another example of industry drivers, in the Finance sector, there are a variety of specific use cases that need to be addressed.  Recently, a bank performed an analysis of their processes which revealed:<ul>
+
+  <li>60,000 annual account closure requests per year.
+  <li>Process non-compliance.
+  <li>Multiple step rework, process deviations, and bottlenecks.
+  <li>Lack of insights into user interaction data.
+  <li>Attempts to quantify automation benefits before implementation.</ul>
+
+  As the next step, from these industry challenges, we can derive a set of technical drivers on which the Cloud Pak platform is based. </br></br></br></br>
+
+  Photo by <a href="https://unsplash.com/@victor_g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Victor</a> on <a href="https://unsplash.com/s/photos/industry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+
+#button:
+#  label: "Technology drivers"
+#  link: "#4"
+image: "images/victor-2PJMDIgK9EA-unsplash.jpg"

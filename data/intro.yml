@@ -1,0 +1,37 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "second"
+title : "Introduction"
+content: |
+  When we talk about a platform, it can be many things:<ul>
+  <li>An environment that allows the building, deploying, and managing of applications and workloads in a consistent way.
+  <li>A bundling of capabilities with integrated behavior.
+  <li>A consistent developer, SRE, and business user experience.
+  <li>A common set of services that simplify and accelerate development and integration, such as embedded data, automation, and artificial intelligence (AI) facilities.
+  <li>A common model for automating delivery and deployment that accelerates developer innovation and scale.
+  <li>Embedded behavior that significantly reduces operational costs in resiliency, scale, repeatability, governance, and high availability (H/A).
+  <li>A foundation for capabilities that all:<ul>
+    <li>Install the same.
+    <li>Work the same.
+    <li>Run anywhere (on-premises, in the cloud, and as-a-Service (aaS).  </ul></ul>
+
+
+  The IBM Cloud Paks exhibit these attributes by:<ul>
+  <li>Extending the OpenShift Container Platform to provide containerized patterns for AI, Data, Integration, and Security.
+  <li>Aligning on a common software stack.
+  <li>Incorporating consistent behaviors at all levels of the stack.
+  <li>Providing integrated common services across the environment with a focus on data, automation, and AI.
+  <li>Driving portability across on-premises, cloud, and aaS delivery models.</ul>
+
+  IBM Cloud Paks deploy into the <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/container-platform">OpenShift Container Platform (OCP)</a>.  The OpenShift Container Platform provides a secure common platform to build, deploy, and manage a variety of containerized applications, and provides tools and capabilities to automate every aspect of the container lifecycle. The OpenShift Container Platform standardizes prescriptive patterns of integration, and provides enhanced capabilities and consistency across the development, deployment, and management experience.</br></br>
+
+  IBM’s Cloud Paks consist of containerized capabilities extending the OpenShift Container Platform to deliver AI, Automation, Data, Observability, Security, and Integration capabilities in a consistent way. The platform includes many of the traditional capabilities that were previously found in individual offerings, but with better aligned and innovative horizontal and vertical integration, more appropriate to subject matter experts, and contains intuitive and cost-effective automation and AI. It is a portable platform that can be housed on any cloud as well as on-premises.</br>
+
+  As the next step, from these industry challenges, we can derive a set of industry and technical drivers on which the Cloud Pak platform is based. </br></br></br></br>
+
+  Photo by <a href="https://unsplash.com/@thomas2006?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">thomas heintz</a> on <a href="https://unsplash.com/s/photos/technical-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+#button:
+#  label: "Industry drivers"
+#  link: "#third"
+image: "images/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg"

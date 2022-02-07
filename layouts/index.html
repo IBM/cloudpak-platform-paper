@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.execsum }}
+	{{ partial "spotlight" site.Data.intro }}
+	{{ partial "spotlight" site.Data.industry }}
+	{{ partial "spotlight" site.Data.technology }}
+	{{ partial "spotlight" site.Data.platformarch }}
+	{{ partial "spotlight" site.Data.cloudpakplatform }}
+	{{ partial "spotlight" site.Data.examplesoln }}
+	{{ partial "spotlight" site.Data.futureconclref }}
+	{{ partial "template/footer" . }}
+
+{{ end }}
