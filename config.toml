@@ -4,7 +4,7 @@
 
 title = "IBM Cloud Paks"
 theme = "hugo-story"
-baseURL = 'https://ibm.github.io/cloudpak-platform-paper/'
+baseURL = 'https://pamandrejko.github.io/cloudpak-platform-paper/'
 
 
 ## -----------------------------------------------
@@ -12,7 +12,7 @@ baseURL = 'https://ibm.github.io/cloudpak-platform-paper/'
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "your-google-analytics-id"
+googleAnalytics = "G-GLSBYZF7PG"
 
 
 ## -----------------------------------------------
