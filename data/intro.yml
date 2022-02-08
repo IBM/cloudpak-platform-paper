@@ -29,7 +29,7 @@ content: |
 
   As the next step, from these industry challenges, we can derive a set of industry and technical drivers on which the Cloud Pak platform is based. </br></br></br></br>
 
-  Photo by <a href="https://unsplash.com/@thomas2006?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">thomas heintz</a> on <a href="https://unsplash.com/s/photos/technical-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  <code>Photo by <a href="https://unsplash.com/@thomas2006?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">thomas heintz</a> on <a href="https://unsplash.com/s/photos/technical-paper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></code>
 
 #button:
 #  label: "Industry drivers"

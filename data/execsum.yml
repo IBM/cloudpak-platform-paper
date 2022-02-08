@@ -4,16 +4,18 @@ id: "first"
 title : "Executive Summary"
 content: |
 
+  <em>Andre Tost, Mike Kaczmarski, Roland Barcia, Pam Andrejko</em></br></br>
+
   The overall value of the platform experience is <strong>productivity gains</strong> for customers who want to focus on rapid innovation and digital transformation in both backend development processes and functionality including:</br> </br>
 
   <strong>Pre-integration</strong></br>
   An integrated platform that reduces or eliminates the manual work required to stitch together multiple capabilities or integration work by systems integrators to build custom connections between capabilities. It includes a common set of well-integrated tools that reduce development time and costs by eliminating duplicative tools and processes, allowing teams to focus on business value add activities. The Cloud Pak platform includes patterns that are highly optimized for value, for example capabilities such as Watson Assistant and Business Automation that work together, eliminating the software integration tasks.</br></br>
 
   <strong>Portability</strong></br>
-  A platform that enables customers to run workloads across different architectural configurations. For example, some workloads my require heavy on-premises architecture, but there also exists data gravity in AWS or Azure, and customers need to run an ETL job where the data resides. The platform allows you to build transformations once and deploy them anywhere, eliminating the cost of maintaining multiple teams skilled on different cloud architectures who are responsible for porting workloads from one environment to another.</br></br>
+  A platform that enables customers to run workloads across different architectural configurations. For example, some workloads may require heavy on-premises architecture, but there also exists data gravity in AWS or Azure, and customers need to run an ETL job where the data resides. The platform allows you to build transformations once and deploy them anywhere, eliminating the cost of maintaining multiple teams skilled on different cloud architectures who are responsible for porting workloads from one environment to another.</br></br>
 
   <strong>Consistent security and operations</strong></br>
-  A platform experience that includes a common and consistent operational model for operations, upgrades, and maintenance across clouds and on-premise environments. IBM’s internal certification process continuously scans for vulnerabilities and makes sure the latest version of OpenShift is supported. Because this compliance is delivered with the Cloud Pak platform experience and a common management experience, it drives economies of scale.</br></br>
+  A platform experience that includes a common and consistent operational model for operations, upgrades, and maintenance across clouds and on-premises environments. IBM’s internal certification process continuously scans for vulnerabilities and makes sure the latest version of OpenShift is supported. Because this compliance is delivered with the Cloud Pak platform experience and a common management experience, it drives economies of scale.</br></br>
 
   Businesses need operational and business agility as they seek to achieve continuous innovation with application integrity. Without a platform, you can only innovate in pockets with fragmented islands of progress. And until now, there has not been an architecture where you can properly integrate capabilities and deliver development agility while ensuring application integrity across the environments. Businesses that embrace the platform will surpass their competitors with productivity gains and agility.</br></br>
 

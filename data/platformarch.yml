@@ -46,7 +46,7 @@ content: |
   <h5><strong>Security</strong></h5> <ul>
 
     <li> <em>Workload segregation</em></br>
-    OpenShift clusters can be shared across organizations or environments (e.g. development, test, production) through role-based access control (RBAC) permissions and network policies. Leveraging the platform in this way extends its value across the organization.
+    OpenShift clusters can be shared across organizations or environments (e.g., development, test, production) through role-based access control (RBAC) permissions and network policies. Leveraging the platform in this way extends its value across the organization.
 
     <li> <em>Automated security vulnerability protection</em></br>
     Operating systems and embedded services are constantly exposed to security vulnerabilities, often reported as Common Vulnerabilities and Exposures (CVEs). Red Hat and IBM monitor, fix, and deliver updates to their OpenShift and application software, as well as the Universal Base Image (UBI) that should form the basis for containerized applications. By keeping their clusters and containers updated, customers can reduce expensive scanning and analysis of their security exposures using the OpenShift platform.
@@ -57,7 +57,7 @@ content: |
   <h5><strong>Reliability</strong></h5><ul>
 
     <li> <em>Inherent resiliency</em></br>
-    Applications or capabilities deployed in the platform are automatically restarted and/or moved when underlying infrastructure fails. This helps to automatically ensure availability, even if or when certain application errors are encountered (e.g. program logic failures or memory leaks).
+    Applications or capabilities deployed in the platform are automatically restarted and/or moved when underlying infrastructure fails. This helps to automatically ensure availability, even if or when certain application errors are encountered (e.g., program logic failures or memory leaks).
 
     <li> <em>High availability (HA): stretch and multizone clusters</em></br>
     The platform topology is not restricted to a single data center or availability zone. An OpenShift cluster can span across availability zones and automatically distribute workload so that capabilities are always available even when a zone (often a data center) becomes unavailable. If multiple instances of an application or service need to be deployed across an enterprise, a stretch cluster may be a good solution to leverage the distributed and scalable nature of the platform while also taking advantage of automated HA.  All foundation services in the platform leverage this capability.
@@ -85,7 +85,7 @@ content: |
     <li><em>Metering</em></br>
     Foundational services can track the usage of specific products and assist in determining compliance with software licensing terms.</ul>
 
-  The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>  
+  The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>
 
   <h3>Core functional capabilities of the platform</h3>
 

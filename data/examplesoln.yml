@@ -25,7 +25,7 @@ content: |
   The Orchestrator microservice, Event Consumer, and Digital Worker run on OpenShift and perform business-critical logic and tasks essential for the intelligent workflow functions. These components cater to several application endpoints including customer mobile applications, core systems, business automation workflows, and external systems or APIs.</br></br>
 
   <h4> Integration services</h4>
-  These services provide a two-way interface into core systems (Guidewire ClaimCenter in this use case) and enable endpoints for on-premise applications such as business processes to interact with the business functions in the digital worker.</br></br>
+  These services provide a two-way interface into core systems (Guidewire ClaimCenter in this use case) and enable endpoints for on-premises applications such as business processes to interact with the business functions in the digital worker.</br></br>
 
   <h4> Data and AI capabilities</h4>
   These capabilities provide insights via ML, Jupyter Notebooks, IBM Watson services, and Object storage for data repositories. The insights are made available by the digital workers and help the business automation flows make decisions in real-time based on prediction scores from the ML models.</br></br>

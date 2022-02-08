@@ -24,7 +24,7 @@ content: |
 
   <h3> Multicloud architectures</h3>
 
-  Besides serving a multitude of application architectures, the platform also must embrace a multicloud deployment and integration model. That is, workloads run in the place that best suits them, based on criteria such as cost, efficiency, or compliance. This not only includes running applications on-premises and off-premises, but also supports different hardware architectures like IBM Z, Power, and x86. It also means applications running in appliances, on “the edge” (i.e. non-traditional locations outside of a data center), and across multiple different hyperscalers. In other words, the platform must “run anywhere”.</br></br>
+  Besides serving a multitude of application architectures, the platform also must embrace a multicloud deployment and integration model. That is, workloads run in the place that best suits them, based on criteria such as cost, efficiency, or compliance. This not only includes running applications on-premises and off-premises, but also supports different hardware architectures like IBM Z, Power, and x86. It also means applications running in appliances, on “the edge” (i.e., non-traditional locations outside of a data center), and across multiple different hyperscalers. In other words, the platform must “run anywhere”.</br></br>
 
   <h3> Platform Characteristics </h3>
 

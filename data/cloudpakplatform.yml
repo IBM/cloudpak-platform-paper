@@ -36,7 +36,7 @@ content: |
 
   AI, automation, security, and observability are horizontally integrated everywhere on the platform, making it easier to apply these concepts across the applications that run on the platform.</br></br></br></br>
 
-  Photo by <a href="https://unsplash.com/@soumyadip_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soumyadip Sarkar</a> on <a href="https://unsplash.com/s/photos/platform?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  <code>Photo by <a href="https://unsplash.com/@soumyadip_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Soumyadip Sarkar</a> on <a href="https://unsplash.com/s/photos/platform?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></code>
 
 #button:
 #  label: "Example solution"
