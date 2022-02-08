@@ -14,10 +14,10 @@ content: |
 
   <h4> Ease of adoption   </h4><ul>
 
-  <li>Offer multiple entry points that facilitate ease of adoption and out-of-the-box value, regardless of the customer starting point.
-  <li>Existing customers with applications and pieces of middleware can modernize their solutions by leveraging the resources and benefits of the platform including portability, deployment automation, and multizone configurations.
-  <li>New customers interested in hyperautomating their IT can begin by starting small and growing, paying only for the pieces that they use.
-  <li>A Managed service (aaS) option is available to let IBM manage deployments or for trial evaluations or getting started.</ul>
+  <li>Offer multiple entry points that facilitate ease of adoption and out-of-the-box value, regardless of the customer starting point:<ul>
+  <li><em>Existing customers</em> with applications and pieces of middleware can modernize their solutions by leveraging the resources and benefits of the platform including portability, deployment automation, and multizone configurations.
+  <li><em>New customers</em> interested in hyperautomating their IT can begin by starting small and growing, paying only for the pieces that they use.
+  <li>A <em>Managed service</em> (aaS) option is available to let IBM manage deployments or for trial evaluations or getting started.</ul></ul>
 
   <h4> Platform consistency</h4><ul>
 
@@ -85,13 +85,13 @@ content: |
     <li><em>Metering</em></br>
     Foundational services can track the usage of specific products and assist in determining compliance with software licensing terms.</ul>
 
+  The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>  
+
   <h3>Core functional capabilities of the platform</h3>
 
   Ultimately, the platform is just a means to an end, that end being the ability to run applications that help run businesses in the best way. To do so, the platform provides the following set of core capabilities that are available across on-premises, hybrid cloud, and multicloud environments to enable development, deployment, and management of industry solutions.</br></br>
 
   <img src="images/auto-pred-sec-mod.png" alt="Core functionalities" /></br></br>
-
-  The platform must provide a deployment topology architecture that allows starting with minimum functionality that can grow and expand over time, by adding more function or more capacity to satisfy production workloads. It requires a role-based model from the ground up and must support a developer experience that makes it easy to integrate existing capabilities into applications. The journey to cloud implies that most organizations are going to be consuming cloud from software on-premises through as a service. Therefore, the platform supports capabilities all the way from on-premises through aaS by having a neutral operations architecture and a consistent way of delivering these capabilities across that spectrum.</br></br>
 
   <h3> Benefits </h3>
   While the detailed capabilities of the individual Cloud Paks are outside of the scope of this paper, we can still derive the following tangible benefits of the overall platform:</br></br>

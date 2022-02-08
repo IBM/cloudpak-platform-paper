@@ -4,7 +4,7 @@ id: "first"
 title : "Executive Summary"
 content: |
 
-  The overall value of the platform experience is productivity gains for customers who want to focus on rapid innovation and digital transformation in both backend development processes and functionality including:</br> </br>
+  The overall value of the platform experience is <strong>productivity gains</strong> for customers who want to focus on rapid innovation and digital transformation in both backend development processes and functionality including:</br> </br>
 
   <strong>Pre-integration</strong></br>
   An integrated platform that reduces or eliminates the manual work required to stitch together multiple capabilities or integration work by systems integrators to build custom connections between capabilities. It includes a common set of well-integrated tools that reduce development time and costs by eliminating duplicative tools and processes, allowing teams to focus on business value add activities. The Cloud Pak platform includes patterns that are highly optimized for value, for example capabilities such as Watson Assistant and Business Automation that work together, eliminating the software integration tasks.</br></br>
@@ -17,7 +17,7 @@ content: |
 
   Businesses need operational and business agility as they seek to achieve continuous innovation with application integrity. Without a platform, you can only innovate in pockets with fragmented islands of progress. And until now, there has not been an architecture where you can properly integrate capabilities and deliver development agility while ensuring application integrity across the environments. Businesses that embrace the platform will surpass their competitors with productivity gains and agility.</br></br>
 
-  We view the combination of the IBM Cloud Paks and the Red Hat OpenShift Container Platform as the Cloud Pak platform, which brings together the value of IBM capabilities on the number one leading Hybrid Cloud Container platform in the industry.</br></br>
+  We view the combination of the IBM Cloud Paks and the Red Hat OpenShift Container Platform as the <em>Cloud Pak platform</em>, which brings together the value of IBM capabilities on the number one leading Hybrid Cloud Container platform in the industry.</br></br>
 style: "style1 medium onscroll-fade-in"
 #button:
 #  label: "Learn More"
