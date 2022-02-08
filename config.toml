@@ -4,7 +4,7 @@
 
 title = "IBM Cloud Paks"
 theme = "hugo-story"
-baseURL = 'https://pamandrejko.github.io/cloudpak-platform-paper/'
+baseURL = 'https://ibm.github.io/cloudpak-platform-paper/'
 
 
 ## -----------------------------------------------
